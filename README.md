@@ -9,16 +9,16 @@ A simple console application to record daily expenses and see where the money go
 - Show total spent
 - Show total by category
 - Show the highest expense
-- Data is saved in `expenses.txt` and loaded again on the next run
+- Data is saved in expenses.txt and loaded again on the next run
 
 ## Java concepts used
 - Classes and objects (`Expense`)
 - Encapsulation (private fields with getters)
-- `ArrayList` to store the expenses
-- `HashMap` to calculate the total for each category
-- File handling (`FileReader`, `FileWriter`, `BufferedReader`, `PrintWriter`)
-- Exception handling (`try-catch`) for wrong input
-- `LocalDate` for dates
+- `ArrayList to store the expenses
+- `HashMap to calculate the total for each category
+- File handling (FileReader, FileWriter, BufferedReader, PrintWriter)
+- Exception handling (try-catch) for wrong input
+- `LocalDate for dates
 
 ## How to run
 ```
@@ -27,7 +27,7 @@ java ExpenseTracker
 ```
 
 ## What I learned
-[Write 2 to 3 lines in your own words, for example: how the HashMap total works, or a bug you fixed.]
+how the HashMap total works, or a bug you fixed.
 
 ## Possible improvements
 - Filter expenses by month
